@@ -1,0 +1,22 @@
+name: assignment_3
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.7.0
+  firebase_auth: ^4.5.0
+  battery_plus: ^3.0.3
+  fluttertoast: ^8.1.1
+  connectivity_plus: ^3.0.3
+
+flutter:
+  assets:
+    - assets/example.png

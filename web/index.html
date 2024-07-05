@@ -1,0 +1,13 @@
+<!-- Replace the local variable for serviceWorkerVersion -->
+<script>
+  var serviceWorkerVersion = "{{flutter_service_worker_version}}";
+</script>
+
+<!-- Replace FlutterLoader.loadEntrypoint with FlutterLoader.load -->
+<script>
+  FlutterLoader.load({
+    serviceWorkerVersion: serviceWorkerVersion,
+    serviceWorker: serviceWorker,
+    mainEntrypoint: main
+  });
+</script>
